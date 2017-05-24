@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+	
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- JQuery --> 
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- Trivia Questions/True or False -->
+ <body>
+  <div id="buttonArea">
+    <div class="text-center">
+      <h2 id="click">Click the button to start</h2>
+        <button class="btn btn-primary btn-lg start">Start</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="bg-info text-white" class="panel panel-default">
+        <div class="panel-body">
+          <h3><u>Click the Done button when finished and ready to see your scores</u></h3><br>
+          <form action="">
+            <h4>The National animal of Scotland is Unicorn</h4>
+            <input type="radio" name="Trivia1" id="A" value="True">True
+            <input type="radio" name="Trivia1" id="B" value="False">False<br>
+          </form>
+          <form action="">
+            <h4>The most popular breed of dog in the United States is a Golden Retriever</h4>
+            <input type="radio" name="Trivia2" id="C" value="True">True
+            <input type="radio" name="Trivia2" id="D" value="False">False<br>
+          </form>
+          <form action="">
+            <h4>The oldest person to be elected to the office of President of the United States is Ronald Reagan</h4>
+            <input type="radio" name="Trivia3" id="E" value="True">True
+            <input type="radio" name="Trivia3" id="F" value="False">False<br>
+          </form>
+          <form action="">
+            <h4>Sears is the first department store to open in the United States</h4>
+            <input type="radio" name="Trivia4" id="G" value="True">True
+            <input type="radio" name="Trivia4" id="H" value="False">False<br>
+          </form>
+          <form action="">
+        	  <h4>The Atlantic Ocean is the largest ocean in the world</h4>
+            <input type="radio" name="Trivia5" id="I" value="True">True
+            <input type="radio" name="Trivia5" id="J" value="False">False<br>
+          </form>
+          <form action="">
+            <h4>John D. Rockefeller was the first billionaire in the United States</h4>
+            <input type="radio" name="Trivia6" id="K" value="True">True
+            <input type="radio" name="Trivia6" id="L" value="False">False<br>
+          </form>
+            <h4>June is the month in which the earth is closest to the sun</h4>
+            <input type="radio" name="Trivia7" id="M" value="True">True
+            <input type="radio" name="Trivia7" id="N" value="False">False<br>
+          </form>
+          <form action="">
+            <h4>Nitrogen is the most abundant element in the earth's atmosphere</h4>
+            <input type="radio" name="Trivia8" id="O" value="True">True
+            <input type="radio" name="Trivia8" id="P" value="False">False<br>
+          </form>
+          <form action="">
+            <h4>Cuba is the largest island in the carribean sea</h4>
+            <input type="radio" name="Trivia9" id="Q" value="True">True
+            <input type="radio" name="Trivia9" id="R" value="False">False<br>
+          </form>
+          <form action="">
+            <h4>English is the most widely spoken language in the world</h4>
+            <input type="radio" name="Trivia10" id="S" value="True">True
+            <input type="radio" name="Trivia10" id="T" value="False">False<br>
+          </form>
+        </div>
+        <div class="text-center">
+          <button class="btn btn-success btn-lg Done">Done</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="panel panel-default">
+        <div class="panel-body2">
+          <div id="clock"></div>
+        </div>
+        <div class="panel-body3">
+          <div id="blank"><h3>OUT OF TIME</h3></div>
+        </div>
+      </div>
+     </div>
+    <div id="score">
+      <div id="correct"></div>
+      <div id="wrong"></div>
+      <div id="none"></div>
+    </div>
+  
+
+
+
+<script src="game.js"></script>
+</body>
+</html>

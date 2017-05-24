@@ -1,0 +1,53 @@
+
+
+body {
+    background: url("question-mark.jpe");
+    background-size: 1600px 800px;
+    background-repeat: no-repeat;
+}
+  .start {
+    visibility: visible
+  }
+
+  .row {
+    margin-top: 0px;
+    visibility: hidden
+  }
+  .panel-body2 {
+    height: 100px;
+    padding: 10px;
+  }
+ 
+ .panel-body3 {
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    visibility: hidden;
+ }
+  #buttonArea {
+    margin-top:0px;
+  }
+
+  #correct {
+    font-size: 25px;
+  }
+
+  #wrong {
+    font-size: 25px;
+  }
+
+  #none {
+    font-size: 25px;
+  }
+
+  #clock {
+    text-align: center;
+    font-size: 70px;
+  }
+
+  #score {
+    margin-top: 100px;
+    text-align: center;
+    height: 100px;
+    font-size: 100px;
+  }
